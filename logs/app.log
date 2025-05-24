@@ -1,0 +1,40 @@
+2025-05-24 14:09:28,848 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.2.Final
+2025-05-24 14:09:28,878 INFO c.m.p.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 23.0.1 with PID 51049 (/Users/dam178/Downloads/property-management/target/classes started by dam178 in /Users/dam178/Downloads/property-management)
+2025-05-24 14:09:28,882 INFO c.m.p.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2025-05-24 14:09:29,254 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-24 14:09:29,280 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2025-05-24 14:09:29,542 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-05-24 14:09:29,549 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-24 14:09:29,550 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-05-24 14:09:29,550 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-05-24 14:09:29,572 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-05-24 14:09:29,573 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 659 ms
+2025-05-24 14:09:29,642 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-24 14:09:29,670 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-24 14:09:29,685 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-05-24 14:09:29,828 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-24 14:09:29,841 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-05-24 14:09:29,942 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67d5ac2f
+2025-05-24 14:09:29,943 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-05-24 14:09:29,953 WARN o.h.o.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-24 14:09:29,954 WARN o.h.o.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-24 14:09:30,319 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-24 14:09:30,381 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24 14:09:30,559 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-24 14:09:30,709 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-05-24 14:09:30,718 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2025-05-24 14:09:30,722 INFO c.m.p.PropertyManagementApplication [main] Started PropertyManagementApplication in 2.155 seconds (process running for 2.518)
+2025-05-24 14:13:07,463 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s400ms).
+2025-05-24 14:13:41,860 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24 14:13:41,860 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-05-24 14:13:41,866 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2025-05-24 14:13:41,933 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-05-24 14:14:24,228 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-3] Inside field validation: ownerEmail - Owner Email cannot be empty
+2025-05-24 14:14:24,228 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-3] Inside field validation: ownerEmail - Owner Email is compulsory
+2025-05-24 14:14:24,228 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-3] Inside field validation: password - Password cannot be null
+2025-05-24 14:14:24,228 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-3] Inside field validation: password - Password cannot be empty
+2025-05-24 14:15:08,673 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-6] Inside field validation: ownerEmail - Owner Email is compulsory
+2025-05-24 14:15:08,674 INFO c.m.p.e.CustomExceptionHandler [http-nio-8080-exec-6] Inside field validation: ownerEmail - Owner Email cannot be empty
+2025-05-24 14:16:22,399 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24 14:16:22,403 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-05-24 14:16:22,411 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
